@@ -4,7 +4,7 @@ const userConfig: UserConfig = {
 	title: "Daniel Deichfuß",
 	description: "thoughts",
 
-	url: "https://astro-lipi.pages.dev",
+	url: "https://danieldeichfuss.com",
 	author: "Daniel Deichfuß",
 
 	logo: "/logo.svg",

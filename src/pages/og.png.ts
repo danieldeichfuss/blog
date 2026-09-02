@@ -1,34 +1,23 @@
 // src/pages/og.png.ts
 
-import type {
-  APIRoute,
-} from "astro";
+import type { APIRoute } from "astro";
 
-import {
-  generateOgImage,
-} from "@/utils/og";
+import { generateOgImage } from "@/utils/og";
 
-export const GET: APIRoute =
-  async (context) => {
-    const png =
-      await generateOgImage(
-        {
-          title: "Lipi",
+export const GET: APIRoute = async (context) => {
+	const png = await generateOgImage({
+		title: "Daniel Deichfuß",
 
-          description:
-            "A minimal editorial theme for Astro focused on typography, chronology, and longform publishing.",
+		description: "thoughts",
 
-          category:
-            "Astro Theme",
+		category: "blog",
 
-          site: "https://astro-lipi.pages.dev",
-        }
-      );
+		site: "https://danieldeichfuss.com",
+	});
 
-    return new Response(png, {
-      headers: {
-        "Content-Type":
-          "image/png",
-      },
-    });
-  };
+	return new Response(png, {
+		headers: {
+			"Content-Type": "image/png",
+		},
+	});
+};
