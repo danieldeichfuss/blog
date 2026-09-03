@@ -10,6 +10,6 @@ tags:
 
 > Understanding is the key thing that we need to make changes safely. - Michael C. Feathers
 
-Understanding is the bottleneck, 24 years age and now with AI.
+Understanding is the bottleneck, 24 years ago and now with AI. Nothing has changed, except the speed of change.
 
 Inspired by: [Understanding is the new bottleneck](https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck)
